@@ -15,15 +15,15 @@ audio_playing = False
 media_map = {
     "circle": {
         "video": "ShapeStream/shape_assets/tsukuyomi_s.mp4",
-        "audio": "shape_assets/tsukuyomi.mp3"
+        "audio": "ShapeStream/shape_assets/tsukuyomi.mp3"
     },
     "rectangle": {
-        "video": "shape_assets/madara_uchiha.mp4",
-        "audio": "shape_assets/madara_uchiha.mp3"
+        "video": "ShapeStream/shape_assets/madara_uchiha.mp4",
+        "audio": "ShapeStream/shape_assets/madara_uchiha.mp3"
     },
     "triangle": {
-        "video": "shape_assets/jarvis.mp4",
-        "audio": "shape_assets/jarvis audio.mp3"
+        "video": "ShapeStream/shape_assets/jarvis.mp4",
+        "audio": "ShapeStream/shape_assets/jarvis audio.mp3"
     }
 }
 
