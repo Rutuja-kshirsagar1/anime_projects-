@@ -14,7 +14,7 @@ audio_playing = False
 
 media_map = {
     "circle": {
-        "video": "shape_assets/tsukuyomi.mp4",
+        "video": "ShapeStream/shape_assets/tsukuyomi_s.mp4",
         "audio": "shape_assets/tsukuyomi.mp3"
     },
     "rectangle": {
