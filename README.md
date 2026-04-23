@@ -62,9 +62,3 @@ Make sure you have Python 3.7+ installed on your system.
 ```bash
 git clone https://github.com/yourusername/shapestream.git
 cd shapestream
-
-
-
-
-
-
