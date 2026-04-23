@@ -1,5 +1,5 @@
 # anime_projects-
-1) # 🎨 ShapeStream 
+# 1) 🎨 ShapeStream 
 # Gesture-Controlled Shape Recognition & Media Player
    An interactive computer vision application that recognizes hand-drawn shapes in real-time and plays associated video/audio content. Draw shapes in the air using finger gestures, and the system will automatically recognize them and trigger corresponding multimedia responses.
 
