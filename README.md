@@ -56,9 +56,85 @@ Make sure you have Python 3.7+ installed on your system.
 - Alpha blending for smooth overlays  
 - Mask operations for precise video placement
 
-  ### Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/shapestream.git
-cd shapestream
+# ✋  Summon  — Gesture-Based Character Summoning System 
+
+HandCast is a real-time computer vision project that allows users to **summon animated characters using hand gestures**. Built with OpenCV, MediaPipe, and Pygame, it blends **gesture recognition, visual effects, and audio feedback** into an interactive experience.
+
+---
+
+## 🚀 Features
+
+* ✋ **Real-Time Hand Tracking** using MediaPipe
+* 🎭 **Gesture-Based Character Summoning**
+
+  * ✌️ *Two-hand gesture (Plus)* → Summons 6 characters
+  * 👍 *Thumb gesture* → Summons 2 characters (Naruto & Madara)
+* 🔊 **Dynamic Sound Effects**
+
+  * Plays once when gesture is detected
+  * Stops when gesture disappears
+* ✨ **Smooth Animations**
+
+  * Entry animation (ease-out motion)
+  * Floating effect for characters
+* 🧍 **Selfie Segmentation**
+
+  * Characters appear behind/around the user
+* 🎯 **Layered Depth System**
+
+  * Creates a cinematic 3D-like arrangement
+
+---
+
+## 🛠️ Tech Stack
+
+* **Python**
+* **OpenCV** — Video processing & rendering
+* **MediaPipe** — Hand tracking & segmentation
+* **NumPy** — Image operations
+* **Pygame** — Audio playback
+
+---
+
+## 🎮 How to Use
+
+* 📷 Start the program → Webcam opens
+* ✌️ Show **two hands close together** → Summon all characters
+* 👍 Show **thumbs up (one hand)** → Summon Naruto & Madara
+* ❌ Remove hand → Characters and sound disappear
+
+---
+
+## 🧠 How It Works
+
+### 1. Hand Tracking
+
+MediaPipe detects **21 landmarks per hand** in real time.
+
+### 2. Gesture Detection
+
+* **Plus Gesture** → Distance between index fingers
+* **Thumb Gesture** → Thumb position + folded fingers
+
+### 3. Character Rendering
+
+* PNG images with alpha blending
+* Depth-based positioning and scaling
+* Smooth animation using interpolation
+
+### 4. Segmentation
+
+* Background separation using selfie segmentation
+* Characters are composited with smooth blending
+
+### 5. Audio System
+
+* Pygame mixer plays sound on gesture activation
+* Stops instantly when gesture ends
+
+---
+⭐ If you like this project, consider giving it a star!
+
+
+  
