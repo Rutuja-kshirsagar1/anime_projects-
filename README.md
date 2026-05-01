@@ -59,7 +59,6 @@ Make sure you have Python 3.7+ installed on your system.
 
 # 2) ✋  Summon (Anime X Marvel) 
 # Gesture-Based Character Summoning System 
----
  HandCast is a real-time computer vision project that allows users to **summon animated characters using hand gestures**. Built with OpenCV, MediaPipe, and Pygame, it blends **gesture recognition, visual effects, and audio feedback** into an interactive experience.
 
 ---
